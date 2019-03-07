@@ -1,80 +1,3 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #ededed;
-}
-
-#titleLogo {
-    background-color: black;
-}
-
-#titleLogo p {
-    font-size: 50px;
-    color: #ffffff;
-    padding: 0px;
-    margin: 0px 0px 0px 10%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#topOuterNavi {  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#dc191b;
-    overflow: hidden;
-}
-
-#topNavi {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-}
-  
-#topNavi li {
-    float: left;
-}
-  
-#topNavi li a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#topNavi li a:hover {
-    background-color: black;
-}
-
-#topNavi .active {
-    background-color: black;
-}
-
-#content {
-    margin: 0 auto;
-    width: 80%;
-}
-
-footer {
-    margin-top: 5%;
-    background-color: #dc191b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer p {
-    font-size: 12pt;
-    width: 100%;
-    color: #ffffff;
-    margin: 0px;
-    padding: 20px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 0.5px solid #ffffff;
-}
-
 #content header{
     background-color: #dc191b;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,10 +6,6 @@ footer p {
     padding-left: 5%;
     color: #ffffff;
     font-weight: bolder;
-}
-
-#firstHeader{
-    padding-top: 1%;
 }
 
 

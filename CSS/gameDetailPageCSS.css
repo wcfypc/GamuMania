@@ -1,0 +1,53 @@
+.gameDetail
+{
+    margin: 5% 0px 0px 0px;
+    background-color: white;
+    height: 15vw;
+    position:relative;
+}
+ 
+.gameDetailDescription
+{
+    max-height:12vw;
+    overflow:auto;
+}
+
+.gameDetailThumbnail{
+    margin: 0px 3% 0px 0px;
+    padding: 0px;
+    float: left;
+    width: 27vw;
+}
+
+.gameDetailThumbnail img {
+    width: 100%;
+}
+
+.gameDetailTitleBar {
+    margin: 0px 0px 1% 0px;
+    padding: 0px;
+    background-color: #dc191b;
+}
+
+.gameDetailTitleBar p {
+    color: white;
+    font-size: 2vw;
+    display: inline;
+    font-weight: bolder;
+}
+
+.gameDetailTitleBar a {
+    float: right;
+    margin-right: 20px;
+    padding: 0px 20px;
+    font-size: 2vw;
+    text-decoration: none;
+    background-color: #f56c2d;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.gameDetailTitleBar a:hover {
+    background-color: #c85e36;
+}

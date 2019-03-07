@@ -12,45 +12,134 @@
 
         gtag('config', 'UA-135734756-1');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./CSS/style.css" rel="stylesheet">
+    <link href="./CSS/indexCSS.css" rel="stylesheet">
     <title>GamuMania</title>
-    <ul id="topNavi">
-        <li><a class="active" href="./index.html">Home</a></li>
-        <li><a href="./newsPage.html">News</a></li>
-        <li><a href="./hardwarePage.html">Hardware</a></li>
-        <li><a href="./gameDetailPage.html">Games Detail</a></li>
-    </ul>
+
+    <div id="topMenu">
+        <div id="titleLogo">
+            <p>GamuMania</p>
+        </div>
+        <div id="topOuterNavi">
+            <ul id="topNavi">
+                <li><a class="active" href="./index.html">Home</a></li>
+                <li><a href="./newsPage.html">News</a></li>
+                <li><a href="./hardwarePage.html">Hardware</a></li>
+                <li><a href="./gameDetailPage.html">Games Detail</a></li>
+            </ul>
+        </div>
+    </div>
+
 </head>
 
 <body>
-    <ul id="gamesOnTrend">
-        <a>Games on Trend: </a>
-        <li><a href="#">Apex Legend</a></li>
-        <li><a href="#">Devil May Cry 5</a></li>
-        <li><a href="#">Pokemon Sword & Shield</a></li>
-        <li><a href="#">Devotion</a></li>
-    </ul>
+    <div id="content">
 
-    <div>
-        <header>
-            Latest News
-        </header>
-    </div>
+        <ul id="gamesOnTrend">
+            <p>Games on Trend:</p>
+            <li><a href="#">Apex Legends</a></li>
+            <li><a href="#">Devil May Cry 5</a></li>
+            <li><a href="#">Pokemon Sword & Shield</a></li>
+            <li><a href="#">Devotion</a></li>
+        </ul>
 
-    <div id="latestNews">
-        <header>
-            <a>News</a>
-        </header>
-        <div>
-            <div class="image"><img src="./Artefacts/Images/News/DevilMayCry5-KeyArt.jpg" alt="DevilMayCry5-KeyArt">
+        <div id="topNews">
+            <header>
+                <p>Latest News</p>
+            </header>
+
+            <div id="topNewsContent1">
+                <img src="./Artefacts/Images/Hardware/Ryzen-3000-series.jpg" alt="Ryzen-3000-series">
+                <div class="title">
+                    <p>Ryzen 3000 series posible to launch on July 2019.</p>
+                </div>
             </div>
-            <div class="title"><a>Devil May Cry 5 is now Released!</a></div>
+
+            <div id="topNewsContents">
+                <div class="top1">
+                    <img src="./Artefacts/Images/Hardware/GTX-1660-Ti.jpg" alt="GTX-1660-Ti">
+                    <div class="title">
+                        <p>GTX 1660Ti a new consumer grade GPU from Nvidia.</p>
+                    </div>
+                </div>
+
+                <div class="top2">
+                    <img src="./Artefacts/Images/Hardware/GTX-1060.jpg" alt="GTX-1060">
+                    <div class="title">
+                        <p>GTX 1060 is now getting more and more affordable.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        <div>
+
+            <header>
+                <p>News</p>
+            </header>
+
+            <div id="bottomNewsContents">
+                
+                <div class="bottomNews">
+                    <div class="bottomNewsThumbnail"><img src="./Artefacts/Images/Hardware/intel-i9-9900k.jpg"
+                            alt="intel-i9-9900k"></div>
+                    <div class="bottomNewsTitle">
+                        <p>i9-9900k the most powerful gaming processor so far.</p>
+                    </div>
+                </div>
+
+                <div class="bottomNews">
+                    <div class="bottomNewsThumbnail"><img src="./Artefacts/Images/Hardware/Razer-Blade-15-Advanced-Model.jpg"
+                            alt="Razer-Blade-15-Advanced-Model"></div>
+                    <div class="bottomNewsTitle">
+                        <p>Razer Blade 15 Advanced Model built by the premium gaming hardware company.</p>
+                    </div>
+                </div>
+
+                <div class="bottomNews">
+                    <div class="bottomNewsThumbnail"><img src="./Artefacts/Images/Hardware/Asus-ROG-Maximus-XI-Formula-Z390.jpg"
+                            alt="Asus-ROG-Maximus-XI-Formula-Z390"></div>
+                    <div class="bottomNewsTitle">
+                        <p>A motherboard packed with COOL, PREMIUM, FANCY and... costly.</p>
+                    </div>
+                </div>
+
+                <div class="bottomNews">
+                    <div class="bottomNewsThumbnail"><img src="./Artefacts/Images/Games/Devil-May-Cry-5.jpg"
+                            alt="Devil-May-Cry-5"></div>
+                    <div class="bottomNewsTitle">
+                        <p>Devil May Cry 5 is now officially released.</p>
+                    </div>
+                </div>
+
+                <div class="bottomNews">
+                    <div class="bottomNewsThumbnail"><img src="./Artefacts/Images/Games/Pokemon-Sword-and-Shield.jpg"
+                            alt="Pokemon-Sword-and-Shield"></div>
+                    <div class="bottomNewsTitle">
+                        <p>Next generation of Pokemon has been revealed.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
+
 </body>
+
+<footer>
+    <div>
+        <p>Disclaimer: This website is developed meant to educational puposes only. There is no intend of offending any
+            copyright or legal laws.</p>
+        <p>About Us: Just a education student trying to complete his/her assignement.</p>
+        <p>Cooperative Websites:</p>
+    </div>
+</footer>
 
 </html>
