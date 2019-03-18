@@ -185,3 +185,12 @@ footer p {
     font-weight: bolder;
     font-size: 2vw;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    background-color: #000000;
+}
