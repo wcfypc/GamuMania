@@ -1,14 +1,3 @@
-#content header{
-    background-color: #dc191b;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vw;
-    margin: -2%;
-    padding-left: 5%;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-
 #gamesOnTrend {
     list-style-type: none;
     overflow: hidden;
@@ -26,81 +15,10 @@
 
 #gamesOnTrend li a, #gamesOnTrend p {
     display: inline-block;
-    font-size: 1.4vw;
+    font-size: 1vw;
     color: #000000;
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#topNews img {
-    width: 100%;
-    height: auto;
-}
-
-#topNews .title {
-    background-color: #000000;
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    bottom: 0px;
-    left: 0px;
-}
-
-#topNews .title p {
-    padding-left: 10px;
-    font-weight: bolder;
-    font-size: 1.3vw;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#topNewsContent1 {
-    width: auto;
-    margin: 50px;
-    position: relative;
-    overflow: hidden;
-}
-
-#topNewsContents {
-    margin: 0px 50px 50px 50px;
-}
-
-.top1, .top2 {
-    max-width: 49%;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-}
-
-.top2 {
-    float: right;
-}
-
-.bottomNews {
-    margin: 20px;
-    max-width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-bottom: 0.5px solid #000000;
-}
-
-.bottomNewsThumbnail img {
-    width: 100%;
-}
-
-.bottomNewsThumbnail {
-    margin: 15px 0px;
-    float: left;
-    width: 20%;
-}
-
-.bottomNewsTitle{
-    padding-left: 25%;
-}
-
-#bottomNewsContents .bottomNewsTitle p {
-    font-weight: bolder;
-    font-size: 2vw;
 }
